@@ -1,107 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
-  --cor-principal: #7D26CD;
-  --cor-header: #551A8B;
-  --fonte-principal: "Poppins", sans-serif;
+    --cor-principal: #7D26CD;
+    --cor-header: #551A8B;
+    --fonte-principal: "Poppins", sans-serif;
 }
 
 .links-cabecalho {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .links-cabecalho:hover {
-  background-color: white;
-  padding: 1em;
-  transition: .6s;
-  color: black;
+    background-color: white;
+    padding: 1em;
+    transition: .6s;
+    color: black;
 }
 
 .container-links {
-  display: flex;
-  justify-content: space-around;
-  padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
 }
 
 .textos-cabecalho {
-  display: flex;
-  background-color: var(--cor-header);
-  font-family: var(--fonte-principal);
-  flex-direction: column;
-
+    display: flex;
+    background-color: var(--cor-header);
+    font-family: var(--fonte-principal);
+    flex-direction: column;
+    animation: fadeIn 1.5s ease-in-out;
 }
 
 .textos {
-  color: white;
-  padding-top: 1em;
-  font-family: var(--fonte-principal);
+    color: white;
+    padding-top: 1em;
+    font-family: var(--fonte-principal);
 }
 
 .container-textos {
-  text-align: center;
-  font-size: 2em;
+    text-align: center;
+    font-size: 2em;
 }
 
 .container-textos2 {
-  text-align: end;
+    text-align: end;
 }
 
 .catalogo-container {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
 }
 
 .botao-comprar {
-  display: flex;
-  justify-content: space-around;
-  
-
+    display: flex;
+    justify-content: space-around;
 }
 
 .comprar {
-  text-decoration: none;
-  background-color: var(--cor-principal);
-  color: black;
-  padding: 1em;
-  border-radius: 1em;
-  font-family: var(--fonte-principal);
+    text-decoration: none;
+    background-color: var(--cor-principal);
+    color: black;
+    padding: 1em;
+    border-radius: 1em;
+    font-family: var(--fonte-principal);
 }
 
 .comprar:hover {
-  background-color: #CDAD00;
-  transition: .6s;
+    background-color: #CDAD00;
+    transition: .6s;
 }
 
 .textos-vinhos {
-  display: flex;
-  justify-content: space-around;
-  font-family: var(--fonte-principal);
-
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--fonte-principal);
 }
 
 .descricao-vinhos {
-  display: flex;
-  font-size: 16px;
-  margin: 1em 0 0 1em;
+    display: flex;
+    font-size: 16px;
+    margin: 1em 0 0 1em;
 }
-  
 
-
-
-    
 .footer {
     margin-top: 3em;
-    text-align: center; /* Alinha o texto do rodapé ao centro */
-    font-size: 16px; /* Define o tamanho da fonte do texto do rodapé */
+    text-align: center;
+    font-size: 16px;
     background-color: #b9a9a998;
+    animation: fadeIn 1.5s ease-in-out;
+}
 
-  }
-  
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

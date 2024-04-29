@@ -12,24 +12,27 @@
 </head>
 <body>
     <header id="header">
-      <div class="textos-cabecalho">
-        <div class="container-textos">
-        <h1 class="textos">Carrinho de Compras</h1>
-      </div>
-      <div class="container-textos2">
-        <p class="textos">O melhor e-commerce de vinhos</p>
-      </div>
-      <hr>
-      <div class="container-links">
-        <a class="links-cabecalho" href="/Página Inicial/index.html">Início</a>
-        <a class="links-cabecalho" href="/Sobre os Vinhos/vinhos.html">Vinhos</a>
-        <a class="links-cabecalho" href="#">Loja</a>
-        <a class="links-cabecalho" href="/sobrenos/sobrelj.html">Sobre nós</a>
-      </div>
-      </div>
-    </header>
+        <div class="textos-cabecalho">
+          <div class="container-textos">
+          <h1 class="textos">Carrinho de Compras</h1>
+        </div>
+        <div class="container-textos2">
+          <p class="textos">O melhor e-commerce de vinhos</p>
+        </div>
+        <hr>
+        <div class="container-links">
+          <a class="links-cabecalho" href="/Página Inicial/index.html">Início</a>
+          <a class="links-cabecalho" href="/Sobre os Vinhos/vinhos.html">Vinhos</a>
+          <a class="links-cabecalho" href="#">Loja</a>
+          <a class="links-cabecalho" href="/sobrenos/sobrelj.html">Sobre nós</a>
+        </div>
+        </div>
+      </header>
     <hr />
-    <form class="borda">
+
+    <hr />
+    <form class="formulario">
+        <section id="carrinho">
         <fieldset class="cinza"> 
             <h1 class="titulo">Seu carrinho</h1>
             <label for="nome">Nome Completo:</label>
@@ -48,12 +51,22 @@
             <br><br>
             
             <h2 class="titulo">Selecione quais itens do carrinho você deseja levar:</h2>
-            <label for="item1">Vinho  - R$200</label>
-            <input id="item1" type="checkbox" name="" value="vinho ">
-            <label for="item3">Vinho  - R$75</label>
-            <input id="item3" type="checkbox" name="" value="vinho ">
-            <label for="item4">Vinho  - R$160</label>
-            <input id="item4" type="checkbox" name="" value="vinho ">
+            <label for="item1">Vinho Lembranças - R$75</label>
+            <input id="item1" type="checkbox" name="Lembranças" value="Lembranças">
+            <label for="item2">Vinho Hrobat - R$160</label>
+            <input id="item2" type="checkbox" name="Hrobat" value="vinho Hrobat">
+            <label for="item3">Vinho Merlot - R$200</label>
+            <input id="item3" type="checkbox" name="Merlot" value="vinho Merlot">
+            
+            <br><br>
+            
+            <label for="item4">Vinho radição - R$159,99</label>
+            <input id="item4" type="checkbox" name="Tradição" value="Tradição">
+            <label for="item5">Perini - R$190,00</label>
+            <input id="item5" type="checkbox" name="Perini" value="Perini">
+            <label for="item6">Chesini - R$300,00</label>
+            <input id="item6" type="checkbox" name="Chesini" value="Chesini">
+            
             
             <br><br>
             
@@ -62,7 +75,9 @@
                 <option value="Presente">Presente para alguem</option>
                 <option value="Pessoal">Para si mesmo</option>
             </select>
+        </section>
             <br><br>
+        <section id="pagamento">
             <label>Forma de Pagamento</label>
             <select>
                 <option value="Débito / Crédito">Débito ou Crédito</option>
@@ -73,21 +88,22 @@
             <button type="reset">Limpar carrinho</button>       
 
         </fieldset>
+    </section>
     </form>
     <hr />
     <footer id="footer">
-      <h2>Formas de Pagamento</h2>
-      <img alt="boleto bancário" width="35px" height="35px" src="https://wx.mlcdn.com.br/site/desk/footer/payment-types/boleto.svg">
-      <img alt="cartão American Express" width="35px" height="35px" src="https://wx.mlcdn.com.br/site/desk/footer/payment-types/american-express.svg">
-      <img alt="cartão Visa" width="35px" height="35px" src="https://wx.mlcdn.com.br/site/desk/footer/payment-types/visa.svg">
-      <img alt="cartão Elo" width="35px" height="35px" src="https://wx.mlcdn.com.br/site/desk/footer/payment-types/elo.svg">
-      <img alt="cartão MasterCard" width="35px" height="35px" src="https://wx.mlcdn.com.br/site/desk/footer/payment-types/mastercard.svg">
-      <p>
-        Vinheria Agnello / CNPJ: 00.776.574/0006-60 / Inscrição Estadual:
-        85.687.08-5 / Endereço Rua Oscar Freire, 102 - São Paulo, SP -
-        20081-902
-    </p>
-    <p>® Vinheria Agnello – Todos os direitos reservados. Endereço eletrônico: https://www.vinheriaagnello.com.br</p>
+        <h2>Todos os direitos reservados</h2>
+        <br><br>
+        <div>
+          <br>
+        <p>
+          Vinheria Agnello. São Paulo, SP.
+          CPF: 903.277.660-69
+          Inscrição Estadual: 471.569.960.700
+          qualidade@rvinheiriaagnello.com.br
+          CEP: 02228-120
+        </p>
+      </div>
   </footer>
   </body>
   </html>

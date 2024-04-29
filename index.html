@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinheria Agnello</title>
     <link rel="stylesheet" href="/styles.css">
+    <style>
+        .textos-cabecalho {
+            opacity: 0; /* Definindo a opacidade inicial como 0 */
+            transition: opacity 1s ease-in-out; /* Adicionando a transição de opacidade */
+        }
+
+        .textos-cabecalho.show {
+            opacity: 1; /* Definindo a opacidade para 1 quando o cabeçalho estiver visível */
+        }
+    </style>
 </head> 
 <body> 
     <header>
@@ -15,7 +25,7 @@
         <div class="container-textos2">
           <p class="textos">O melhor e-commerce de vinhos</p>
         </div>
-        
+        <hr>
         <div class="container-links">
           <a class="links-cabecalho" href="/index.html">Início</a>
           <a class="links-cabecalho" href="/Sobre os Vinhos/vinhos.html">Vinhos</a>
@@ -24,5 +34,55 @@
         </div> 
         </div>
       </header>
+      <main>
+        <div class="container-main">
+        <div class="secao1">
+            <h1>Quem somos?</h1>
+            <br>
+            <p>Na Vinheria Agnello, mergulhamos no mundo fascinante dos vinhos para trazer até você uma seleção cuidadosamente escolhida dos melhores rótulos, prontos para serem apreciados em cada gole. Somos uma vinharia online comprometida em oferecer uma experiência única de descoberta e prazer sensorial para os amantes do vinho em todo o país.</p>
+        </div>
+        <div class="secao2">
+            <h1>Origem</h1>
+            <br>
+            <p>A história da Vinheria Agnello remonta a uma tradição familiar enraizada no mundo dos vinhos. Fundada em uma pequena adega no coração de uma cidade vinícola, nossa vinharia começou como um ponto de encontro para apreciadores locais, onde cada garrafa era escolhida com cuidado e paixão, compartilhando histórias e experiências enológicas únicas.
+            Então, veio a pandemia global, desafiando-nos a repensar nossa maneira de conectar e compartilhar nossa paixão pelo vinho. Diante das restrições e da necessidade de distanciamento social, vimos a oportunidade de levar nossa experiência para além das fronteiras físicas e adentrar o universo digital.
+
+            Assim, nasceu a Vinheria Agnello Online, uma evolução natural e necessária para continuar a oferecer vinhos excepcionais e experiências enológicas de qualidade para nossos clientes, independentemente da localização geográfica. Com a mesma dedicação, expertise e amor pelo vinho, expandimos nossos horizontes para criar um e-commerce que reflete nossa essência e compromisso com a excelência.
+            </p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="secao3">
+        <a href="./loja/loja.html" class="comprar">Quero Comprar!</a>
+        
+    </div>
+    <br><br><br><br><br>
+    <div class="imagem-vinhos">
+    <img src="pexels-viktoria-slowikowska-5332364.jpg" width="400" alt="">
+</div>
+    
+      </main>
+      <footer class="footer">
+        <h2>Todos os direitos reservados</h2>
+        <br><br>
+        <div>
+          <br>
+        <p>
+          Vinheria Agnello. São Paulo, SP.
+          CPF: 903.277.660-69
+          Inscrição Estadual: 471.569.960.700
+          qualidade@rvinheiriaagnello.com.br
+          CEP: 02228-120
+        </p>
+      </div>
+    </footer>
+    <script>
+        // Adiciona a classe .show ao cabeçalho após um curto atraso para ativar o efeito de fade-in
+        window.onload = function() {
+            document.querySelector('.textos-cabecalho').classList.add('show');
+        };
+    </script>
 </body>
 </html>

@@ -1,40 +1,110 @@
-:root {
-    --cor-principal: #7D26CD;
-    --cor-header: #551A8B;
-    --fonte-principal: "Poppins", sans-serif;
-  }
-  
-  .links-cabecalho {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .links-cabecalho:hover {
-    background-color: white;
-    padding: 1em;
-    transition: .6s;
-    color: black;
-  }
-  
-  .container-links {
-    display: flex;
-    justify-content: space-around;
-    padding: 2em;
-  }
-  
-  .textos-cabecalho {
-    display: flex;
-    background-color: var(--cor-header);
-    font-family: var(--fonte-principal);
-    flex-direction: column;
-  
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  .container-textos {
-    text-align: center;
-    font-size: 2em;
-  }
-  
-  .container-textos2 {
-    text-align: end;
-  }
+:root {
+  --cor-principal: #7D26CD;
+  --cor-header: #551A8B;
+  --fonte-principal: "Poppins", sans-serif;
+}
+
+.links-cabecalho {
+  text-decoration: none;
+  color: white;
+}
+
+.links-cabecalho:hover {
+  background-color: white;
+  padding: 1em;
+  transition: .6s;
+  color: black;
+}
+
+.container-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+.textos-cabecalho {
+  display: flex;
+  background-color: var(--cor-header);
+  font-family: var(--fonte-principal);
+  flex-direction: column;
+  opacity: 0; 
+  transition: opacity 1s ease-in-out; 
+}
+
+.textos-cabecalho.show {
+  opacity: 1; 
+}
+
+.container-textos {
+  text-align: center;
+  font-size: 2em;
+}
+
+.container-textos2 {
+  text-align: end;
+}
+
+.textos {
+  color: white;
+  padding-top: 1em;
+  font-family: var(--fonte-principal);
+}
+
+.container-main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.secao1 {
+  background-color: #b9a9a998;
+  width: 20em;
+  padding: 2em;
+  border-radius: 1em;
+  margin-top: 1em;
+  font-family: var(--fonte-principal);
+}
+
+.secao2 {
+  background-color: #b9a9a998;
+  width: 40em;
+  padding: 2em;
+  border-radius: 1em;
+  margin-top: 1em;
+  font-family: var(--fonte-principal);
+}
+
+.secao3 {
+  text-align: center;
+  font-family: var(--fonte-principal);
+}
+
+.comprar {
+  text-decoration: none;
+  background-color: var(--cor-principal);
+  color: black;
+  padding: 1em;
+  border-radius: 1em;
+  font-family: var(--fonte-principal);
+}
+
+.comprar:hover {
+  background-color: #CDAD00;
+  transition: .6s;
+}
+
+.imagem-vinhos {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 3em;
+  text-align: center;
+  font-size: 16px;
+  background-color: #b9a9a998;
+  font-family: var(--fonte-principal);
+}
