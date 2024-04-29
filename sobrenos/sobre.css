@@ -1,5 +1,5 @@
 :root {
-    --border-color: rgb(110, 0, 0); /* Define uma variável CSS para a cor da borda */
+    --border-color: rgb #7D26CD; /* Define uma variável CSS para a cor da borda */
 }
 
 body {

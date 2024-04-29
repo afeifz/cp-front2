@@ -11,17 +11,23 @@
     <link rel="stylesheet" href="carrinho.css">
 </head>
 <body>
-    <header id="header">
-        <h1 class="nome-da-pagina">Carrinho de compras</h1>
+    <header>
+      <div class="textos-cabecalho">
+        <div class="container-textos">
+        <h1 class="textos">Carrinho de Compras</h1>
+      </div>
+      <div class="container-textos2">
+        <p class="textos">O melhor e-commerce de vinhos</p>
+      </div>
+      <hr>
+      <div class="container-links">
+        <a class="links-cabecalho" href="/Página Inicial/index.html">Início</a>
+        <a class="links-cabecalho" href="/Sobre os Vinhos/vinhos.html">Vinhos</a>
+        <a class="links-cabecalho" href="#">Loja</a>
+        <a class="links-cabecalho" href="/sobrenos/sobrelj.html">Sobre nós</a>
+      </div>
+      </div>
     </header>
-    <hr />
-    <div>
-        <nav class="alinhamento">
-            <a href="../Página Inicial/index.html">Voltar ao início</a>
-            
-            <a href="../loja/loja.html">Voltar ao catálogo</a>
-        </nav>
-    </div>
     <hr />
     <form class="borda">
         <fieldset class="cinza"> 
@@ -42,16 +48,11 @@
             <br><br>
             
             <h2 class="titulo">Selecione quais itens do carrinho você deseja levar:</h2>
-            <label for="item1">Vinho Tinto - R$99,90</label>
+            <label for="item1">Vinho Chardonnay - R$200</label>
             <input id="item1" type="checkbox" name="tinto" value="vinho tinto">
-            <label for="item2">Vinho Branco - R$110,90</label>
-            <input id="item2" type="checkbox" name="branco" value="vinho branco">
-            
-            <br>
-            
-            <label for="item3">Vinho Rosé - R$99,00</label>
+            <label for="item3">Vinho Alberino - R$75</label>
             <input id="item3" type="checkbox" name="rose" value="vinho rose">
-            <label for="item4">Espumante - R$90,00</label>
+            <label for="item4">Vinho Arbane - R$160</label>
             <input id="item4" type="checkbox" name="espumante" value="espumante">
             
             <br><br>

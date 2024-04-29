@@ -1,0 +1,40 @@
+:root {
+    --cor-principal: #7D26CD;
+    --cor-header: #551A8B;
+    --fonte-principal: "Poppins", sans-serif;
+  }
+  
+  .links-cabecalho {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .links-cabecalho:hover {
+    background-color: white;
+    padding: 1em;
+    transition: .6s;
+    color: black;
+  }
+  
+  .container-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+  }
+  
+  .textos-cabecalho {
+    display: flex;
+    background-color: var(--cor-header);
+    font-family: var(--fonte-principal);
+    flex-direction: column;
+  
+  }
+
+  .container-textos {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .container-textos2 {
+    text-align: end;
+  }
