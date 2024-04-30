@@ -14,5 +14,5 @@ Essa pág. server para mostrar ao cliente quais são os tipos de vinhos disponí
 Onde todos os vinhos ficam armazenados quando o cliente deseja comprar algum. Tem um formulário onde é necessário o nome completo, e-mail de contato e CEP. Logo abaixo existem os vinhos que o cliente pode selecionar quais ele quer levar e quais ele vai deixar no carrinho. Por fim, a forma de pagamento que o cliente deseja utilizar e dois botões, que servem para finalizar a compra e limpar o carrinho, respectivamente.
 ## SOBRE NÓS (SOBRE.HTML)
 Conta mais a fundo a história da vinheria, além de explicar como o sr. Agnello se manteve no mercado por 15 anos, como os vinhos são cuidados no armazen e também conta um pouco dos tipos de clientes que aparecem na vinheria, onde a maioria são pessoas que não sabem muito sobre vinhos.
-## MUDANÇAS FE
+## MUDANÇAS DO PROJETO DO CP1 PARA O CP2
 Adicionamos algumas animações com keyframes, transições e efeitos nos botões, cabeçario, na pág. dos vinhos e também na pág do carrinho. Também utilizamos pseudo classes, como o hover. 
