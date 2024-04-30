@@ -1,8 +1,8 @@
-### Integrantes
-# Mohamed Afif Smaili  RM: 554445
-# Juan Francisco Alves Muradas RM: 555541
-# Ahmad Jaafar  RM: 97927
-# Luiz Felipe Motta  RM: 559126
+# Integrantes
+### Mohamed Afif Smaili  RM: 554445
+### Juan Francisco Alves Muradas RM: 555541
+### Ahmad Jaafar  RM: 97927
+### Luiz Felipe Motta  RM: 559126
 
 ## PAGINA INICIAL (INDEX.HTML)
 A pagina inicial da vinheria conta um breve resumo de "Quem Somos?" e a "Origem" da vinheria. Por essa página, é possível ir para todas as outras. 
