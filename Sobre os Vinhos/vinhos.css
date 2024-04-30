@@ -8,7 +8,7 @@
 :root {
     --cor-principal: #7D26CD;
     --cor-header: #551A8B;
-    --fonte-principal: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 h1, h2 {
@@ -44,6 +44,8 @@ p {
     background-color: var(--cor-header);
     font-family: var(--fonte-principal);
     flex-direction: column;
+    animation-name: fadeIn;
+    animation-duration: 1.5s
 }
 
 .container-textos {
@@ -88,17 +90,6 @@ main {
     animation-duration: 1.5s;
 }
 
-@keyframes slideInRight {
-    from {
-        margin-left: 100%;
-        opacity: 0;
-    }
-
-    to {
-        margin-left: 0%;
-        opacity: 1;
-    }
-}
 
 @keyframes fadeIn {
     from {

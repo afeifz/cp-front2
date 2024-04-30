@@ -6,7 +6,7 @@
   }
 
   * {
-      font-family: "Poppins", sans-serif;;
+      font-family: "Poppins", sans-serif;
       margin: 0;
       padding: 0;
     }
@@ -71,6 +71,9 @@
     border: 2px solid black;
     background-image: linear-gradient(to top,rgba(100, 0, 150, 0.5) , white );
   }
+  .titulo {
+    font-size: 2em;
+  }
   #carrinho {
     text-align: center;
     
@@ -85,11 +88,77 @@
 
   #footer {
     margin-top: 3em;
-    text-align: center; /* Alinha o texto do rodapé ao centro */
-    font-size: 16px; /* Define o tamanho da fonte do texto do rodapé */
+    text-align: center; 
+    font-size: 16px; 
     background-color: #b9a9a998;
   }
 
+  #nome {
+    padding: 10px 20px;
+    background-color: #b9a9a998;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+  }
+
+  #nome:hover {
+    background-color: #a89a9298;
+    color: white;
+  }
+
+  #email {
+    padding: 10px 20px;
+    background-color: #b9a9a998;
+    color: #fff;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    color: black;
+  }
+
+  #email:hover {
+    background-color: #a89a9298;
+    color: white;
+  }
+
+  #cep {
+    padding: 10px 20px;
+    background-color: #b9a9a998;
+    color: #fff;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    color: black;
+  }
+
+  #cep:hover {
+    background-color: #a89a9298;
+    color: white;
+  }
+
+  #botao {
+    padding: 10px 20px;
+    background-color: #7D26CD;
+    color: #fff;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+  }
+
+  #botao:hover {
+    background-color: #6A1C9A;
+  }
+
+  #opcao {
+    padding: 10px 15px;
+    background-color: #b9a9a998; 
+    color: #000; 
+    border: none;
+    border-radius: 10px; 
+    transition: background-color 0.3s ease;
+  }
 
   @keyframes fadeIn {
     0% {
